@@ -11,9 +11,6 @@ The project focuses on:
 * Encoding categorical features
 * Scaling numerical features
 * Visualizing data before and after preprocessing
-
-⚠️ **No machine learning model is built**. The goal is only data preparation.
-
 ---
 
 ## 📊 Dataset
