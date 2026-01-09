@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jan  7 21:32:08 2026
-
-@author: User
-"""
 
 import streamlit as st 
 import pandas as pd 
@@ -295,4 +289,5 @@ elif Section =="Visualizations":
         ax.set_ylabel("SalePrice")
         st.pyplot(fig)
         st.caption("Boxplot highlighting high-value houses after preprocessing.")
+
 
