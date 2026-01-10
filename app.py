@@ -205,8 +205,8 @@ elif Section =="Missing Handling":
     st.header("🧹 Missing Handling Values")
     raw = load_data()
     clean = get_clean_data()
-    st.write("Before Handling,total missing values:",raw.isna().sum().sum())
-    st.write("After Handling,total missing values after handling:",clean.isna().sum().sum())
+    st.write("Before Handling:total missing values:",raw.isna().sum().sum())
+    st.write("After Handling:total missing values after handling:",clean.isna().sum().sum())
     st.success("Missing values handled successfully ✅")
     
     
@@ -289,6 +289,7 @@ elif Section =="Visualizations":
         ax.set_ylabel("SalePrice")
         st.pyplot(fig)
         st.caption("Boxplot highlighting high-value houses after preprocessing.")
+
 
 
 
