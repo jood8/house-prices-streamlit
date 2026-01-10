@@ -37,7 +37,9 @@ The project focuses on:
 pip install -r requirements.txt
 streamlit run app.py
 ```
+## 🌐 Live App
 
+👉 (https://house-prices-app-cpzjmpauqtezvhiaknyq9g.streamlit.app/)
 ---
 
 ## 📁 Project Files
