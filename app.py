@@ -242,7 +242,7 @@ elif Section =="Scaling":
         train_mm = train.copy()
         train_mm[num_cols] = scaler_mm.fit_transform(train[num_cols])
         st.caption("MinMaxScaler applied:scaled between 0 and  1")
-        st.dataframe(train_mm..astype(float))
+        st.dataframe(train_mm.astype(float))
         
 elif Section =="Visualizations":
     st.header("📊 Data Visualizations")
@@ -289,6 +289,7 @@ elif Section =="Visualizations":
         ax.set_ylabel("SalePrice")
         st.pyplot(fig)
         st.caption("Boxplot highlighting high-value houses after preprocessing.")
+
 
 
 
